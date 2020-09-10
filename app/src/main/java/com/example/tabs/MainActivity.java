@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent2);
                         overridePendingTransition(0,0);
                         return true;
+                       
                 }
                 return false;
             }

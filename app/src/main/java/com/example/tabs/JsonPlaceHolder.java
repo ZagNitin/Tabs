@@ -13,4 +13,7 @@ public interface JsonPlaceHolder {
 
     @GET("users")
     Call<List<User>> users();
+
+    @GET("photos")
+    Call<List<Photos>> photos();
 }
